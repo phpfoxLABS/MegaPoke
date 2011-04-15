@@ -1,4 +1,32 @@
 phpfoxLABS - MegaPoke phpFox Module Instillation Guide
+
+MegaPoke 1.0 Features:
+- Unlimited Poke Types
+- Feed and Notification Support
+- Email Notification
+- All Phrases in Phrase Manager
+- User Group settings for "Posting to Feed" and to "Disable MegaPoke"
+- User Privacy Settings to turn off MegaPoking on profile.
+- User Notification Settings to stop getting Poke Notification Emails
+- Flood Control to stop over MegaPoking 
+
+No Core Modifications: Just upload, install in Admin CP, add Poke Types, and start poking!
+
+Checkout our other phpFox Modules:
+http://phpfoxlabs.com/module.list/ 
+
+Need custom phpFox development?  Feel free to contact us about your project:
+Phone: +1 (407) 490-3223
+Email: sales@phpfoxlabs.com
+Chat Live: visit http://phpfoxlabs.com and click Live Chat
+
+#######################################################################
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+human-readable summary: http://creativecommons.org/licenses/by-sa/3.0/
+full legal code: http://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+#######################################################################
 IMPORTANT: Please follow all steps in this installation guide in order to make this plugin worksmoothly.
 
 I. SYSTEM REQUIREMENT:1. phpFox >= 2.0
@@ -12,9 +40,7 @@ II. INSTALLATION:
 
 4. Enter as many Poke Types as you want.
 
-5. Go to a user Profile (other than yours) to see if MegaPoke is there, if so happy Poking. If notsomething went wrong, go back over the steps. 
-
+5. Go to a user Profile (other than yours) to see if MegaPoke is there, happy Poking. 
 Extra stuff you can do:1. You can edit all the MegaPoke Phrases in your Phrase Manager.2. You can also set which user groups get access to MegaPoke.
 
-If you like this module, please checkout more at: 
-http://phpfoxlabs.com/
+If you like this module, please checkout more at: http://phpfoxlabs.com/
