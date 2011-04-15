@@ -1,0 +1,17 @@
+MegaPoke Instillation Guide
+IMPORTANT: Please follow all steps in this installation guide in order to make this plugin worksmoothly.
+
+I. SYSTEM REQUIREMENT:1. phpFox >= 2.0
+
+II. INSTALLATION:
+1. Upload "upload" folder to phpFox root directory.
+
+2. Go to adminCP > extensions > product > import product , install ÒphpfoxLABS - MegaPokeÓpackage.
+
+3. Go to the Drop Down Menu in Admin Page: Modules > MegaPoke > Poke Types
+
+4. Enter as many Poke Types as you want.
+
+5. Go to a user Profile (other than yours) to see if MegaPoke is there, if so happy Poking. If notsomething went wrong, go back over the steps. 
+
+Extra stuff you can do:1. You can edit all the MegaPoke Phrases in your Phrase Manager.2. You can also set which user groups get access to MegaPoke.
