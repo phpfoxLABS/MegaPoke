@@ -1,14 +1,19 @@
-phpfoxLABS - MegaPoke phpFox Module Instillation Guide
+MegaPoke - phpFox Poke Module by phpfoxLABS.com
 
-MegaPoke 1.0 Features:
-- Unlimited Poke Types
-- Feed and Notification Support
-- Email Notification
-- All Phrases in Phrase Manager
-- User Group settings for "Posting to Feed" and to "Disable MegaPoke"
-- User Privacy Settings to turn off MegaPoking on profile.
-- User Notification Settings to stop getting Poke Notification Emails
-- Flood Control to stop over MegaPoking 
+MegaPoke CURRENT Features:
+- Unlimited Poke Types (added 04/15/11)
+- Feed and Notification Support (added 04/15/11)
+- Email Notification (added 04/15/11)
+- All Phrases in Phrase Manager (added 04/15/11)
+- User Group settings for "Posting to Feed" and to "Disable MegaPoke" (added 04/15/11)
+- User Privacy Settings to turn off MegaPoking on profile. (added 04/15/11)
+- User Notification Settings to stop getting Poke Notification Emails (added 04/15/11)
+- Flood Control to stop over MegaPoking (added 04/15/11)
+
+MegaPoke FUTURE Features:
+- Add Images along with Poke Types
+- Ryan's Advanced Feed Support
+- Replace View in Notification with "Poke Back"
 
 No Core Modifications: Just upload, install in Admin CP, add Poke Types, and start poking!
 
@@ -27,20 +32,4 @@ human-readable summary: http://creativecommons.org/licenses/by-sa/3.0/
 full legal code: http://creativecommons.org/licenses/by-sa/3.0/legalcode
 
 #######################################################################
-IMPORTANT: Please follow all steps in this installation guide in order to make this plugin worksmoothly.
-
-I. SYSTEM REQUIREMENT:1. phpFox >= 2.0
-
-II. INSTALLATION:
-1. Upload "upload" folder to phpFox root directory.
-
-2. Go to adminCP > extensions > product > import product , install phpfoxLABS - MegaPokepackage.
-
-3. Go to the Drop Down Menu in Admin Page: Modules > MegaPoke > Poke Types
-
-4. Enter as many Poke Types as you want.
-
-5. Go to a user Profile (other than yours) to see if MegaPoke is there, happy Poking. 
-Extra stuff you can do:1. You can edit all the MegaPoke Phrases in your Phrase Manager.2. You can also set which user groups get access to MegaPoke.
-
-If you like this module, please checkout more at: http://phpfoxlabs.com/
+
