@@ -6,7 +6,7 @@
 		<description>MegaPoke Module from phpfoxLABS</description>
 		<version>1.0.0</version>
 		<latest_version></latest_version>
-		<last_check>1302870103</last_check>
+		<last_check>1303030655</last_check>
 		<is_active>1</is_active>
 		<url>http://www.phpfoxlabs.com/megapoke/</url>
 		<url_version_check>http://www.phpfoxlabs.com/megapoke/version</url_version_check>
@@ -19,7 +19,7 @@
   `poke_text` varchar(100) default NULL,
   `poke_active` int(11) NOT NULL default '0',
   PRIMARY KEY  (`poke_type_id`)
-);");\]]></install_code>
+);");]]></install_code>
 			<uninstall_code></uninstall_code>
 		</install>
 	</installs>
