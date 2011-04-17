@@ -4,7 +4,16 @@ IMPORTANT: Please follow all steps in this installation guide in order to make t
 
 I. SYSTEM REQUIREMENT:1. phpFox >= 2.0
 
-II. INSTALLATION:
+
+II. TO UPGRADE (ALREADY INSTALLED) TO LATEST COPY:
+1. Go to adminCP > extensions > product > manage product 
+	a. next to phpfoxLABS MegaPoke click the "down arrow"
+	b. in the drop down list that appears select "delete"
+
+2. Follow the INSTALLATION steps below.
+
+
+III. INSTALLATION:
 1. Upload "upload" folder to phpFox root directory.
 
 2. Go to adminCP > extensions > product > import product , install phpfoxLABS - MegaPokepackage.
