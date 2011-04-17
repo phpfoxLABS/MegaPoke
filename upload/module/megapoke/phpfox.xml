@@ -9,7 +9,7 @@
 		<phrase_var_name>module_megapoke</phrase_var_name>
 	</data>
 	<blocks>
-		<block type_id="0" m_connection="profile.index" module_id="megapoke" component="profilepoke" location="3" is_active="1" ordering="1" disallow_access="" can_move="1">
+		<block type_id="0" m_connection="profile.index" module_id="megapoke" component="profilepoke" location="3" is_active="1" ordering="1" disallow_access="" can_move="0">
 			<title>MegaPoke</title>
 			<source_code />
 			<source_parsed />
