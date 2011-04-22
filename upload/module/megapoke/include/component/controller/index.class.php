@@ -97,7 +97,7 @@ class Megapoke_Component_Controller_Index extends Phpfox_Component
 				{
 					
 						$ryansFeedStatus = Phpfox::getPhrase('megapoke.ryans_feed_status', array(
-						'viewer_link' = >$oUrl->makeUrl('')."". $_POST['poke_user'],
+						'viewer_link' => $oUrl->makeUrl('')."". $_POST['poke_user'],
 						'viewer_full_name' => Phpfox::getLib('parse.output')->clean($_POST['poke_user_full_name']),
 						'content' => $aPoke['poke_text'])
 						);	
