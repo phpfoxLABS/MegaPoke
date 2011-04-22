@@ -1,0 +1,48 @@
+<module>
+	<data>
+		<module_id>megapoke</module_id>
+		<product_id>phpfox_megapoke</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:1:{s:30:"megapoke.admin_menu_poke_types";a:1:{s:3:"url";a:1:{i:0;s:8:"megapoke";}}}]]></menu>
+		<phrase_var_name>module_megapoke</phrase_var_name>
+	</data>
+	<blocks>
+		<block type_id="0" m_connection="profile.index" module_id="megapoke" component="profilepoke" location="3" is_active="1" ordering="1" disallow_access="" can_move="0">
+			<title>MegaPoke</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="megapoke" component="profilepoke" m_connection="" module="megapoke" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="megapoke" component="index" m_connection="megapoke.index" module="megapoke" is_controller="1" is_block="0" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="admin_menu_poke_types" added="1302780138">Poke Types</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="module_megapoke" added="1302780138">MegaPoke from phpfoxLABS</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="profilepoketitle" added="1302781318">MegaPoke</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="newpoke_subject" added="1302785694">{owner_full_name} just sent you a {content}</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="a_href_user_link_owner_full_name_a_sent_you_a_content" added="1302787432"><![CDATA[<a href="{user_link}">{owner_full_name}</a> sent you a {content}.]]></phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="notification" added="1302787514"><![CDATA[<a href="{user_link}">{owner_full_name}</a> sent you a {content}.]]></phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="user_setting_canmegapoke" added="1302831336">User can MegaPoke other Users</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="you_can_not_send_yourself_a_megapoke" added="1302832424">You can not send yourself a MegaPoke</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="poke_send" added="1302834074">Send {user_name} a:</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="ijustsentapoke" added="1302837295"><![CDATA[<a href="{user_link}">{owner_full_name}</a> sent <a href="{viewer_link}">{viewer_full_name}</a> a {content}.]]></phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="too_many_megapokes" added="1302837375">Hold on your sending too many MegaPoke!  Try again later!</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="poke_sent" added="1302837399">MegaPoke Sent!</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="newpoke_message" added="1302837759"><![CDATA[You just received a poke:
+
+<a href="{user_link}">{owner_full_name}</a> sent you a {content}]]></phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="new_poke_notification_email" added="1302867082">New MegaPokes</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="settings_who_can_poke" added="1302867454">Can MegaPoke Me</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="user_setting_showpokesinfeed" added="1302868915">Post MegaPokes to Users feed</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="user_turned_off_megapoke" added="1302870388">User has turned off MegaPokes!</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="ryans_feed_status" added="1303473821"><![CDATA[sent <a href="{viewer_link}">{viewer_full_name}</a> a {content}.]]></phrase>
+	</phrases>
+	<user_group_settings>
+		<setting is_admin_setting="0" module_id="megapoke" type="boolean" admin="true" user="true" guest="true" staff="true" module="megapoke" ordering="0">canmegapoke</setting>
+		<setting is_admin_setting="0" module_id="megapoke" type="boolean" admin="true" user="true" guest="true" staff="true" module="megapoke" ordering="0">showpokesinfeed</setting>
+	</user_group_settings>
+</module>

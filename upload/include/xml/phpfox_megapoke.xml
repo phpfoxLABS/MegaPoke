@@ -1,0 +1,29 @@
+<product>
+	<data>
+		<product_id>phpfox_megapoke</product_id>
+		<is_core>0</is_core>
+		<title>phpfoxLABS - MegaPoke</title>
+		<description>MegaPoke Module from phpfoxLABS</description>
+		<version>1.0.0</version>
+		<latest_version></latest_version>
+		<last_check>1303478263</last_check>
+		<is_active>1</is_active>
+		<url>http://www.phpfoxlabs.com/megapoke/</url>
+		<url_version_check>http://www.phpfoxlabs.com/megapoke/version</url_version_check>
+	</data>
+	<installs>
+		<install>
+			<version>1.00</version>
+			<install_code><![CDATA[$this->database()->query("CREATE TABLE IF NOT EXISTS `" . Phpfox::getT('megapoke') . "` (
+  `poke_type_id` int(11) NOT NULL auto_increment,
+  `poke_text` varchar(100) default NULL,
+  `poke_active` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`poke_type_id`)
+);");]]></install_code>
+			<uninstall_code></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>megapoke</module_id>
+	</modules>
+</product>
