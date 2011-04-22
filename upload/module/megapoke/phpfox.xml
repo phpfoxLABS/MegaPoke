@@ -39,6 +39,7 @@
 		<phrase module_id="megapoke" version_id="2.0.7" var_name="settings_who_can_poke" added="1302867454">Can MegaPoke Me</phrase>
 		<phrase module_id="megapoke" version_id="2.0.7" var_name="user_setting_showpokesinfeed" added="1302868915">Post MegaPokes to Users feed</phrase>
 		<phrase module_id="megapoke" version_id="2.0.7" var_name="user_turned_off_megapoke" added="1302870388">User has turned off MegaPokes!</phrase>
+		<phrase module_id="megapoke" version_id="2.0.7" var_name="ryans_feed_status" added="1303473821"><![CDATA[sent <a href="{viewer_link}">{viewer_full_name}</a> a {content}.]]></phrase>
 	</phrases>
 	<user_group_settings>
 		<setting is_admin_setting="0" module_id="megapoke" type="boolean" admin="true" user="true" guest="true" staff="true" module="megapoke" ordering="0">canmegapoke</setting>
