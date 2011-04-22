@@ -20,6 +20,7 @@ defined('PHPFOX') or exit('NO DICE!');
 <form action="{$pokeFormUrl}" name="pokeme" method="post">
 <input type="hidden" name="poke_user" value="{$aUser.user_name}" />
 <input type="hidden" name="poke_userid" value="{$aUser.user_id}" />
+<input type="hidden" name="poke_user_full_name" value="{$aUser.full_name}" />
 <table border="0" cellspacing="2" cellpadding="2">
   <tr>
     <td>
