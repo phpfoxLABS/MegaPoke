@@ -91,6 +91,29 @@ class Megapoke_Component_Controller_Index extends Phpfox_Component
 	
 				phpfox::getLib('phpfox.database')->insert(Phpfox::getT('feed'), $d);
 		
+		
+						
+				if(Phpfox::isModule('modsfox'))
+				{
+					
+						$ryansFeedStatus = Phpfox::getPhrase('megapoke.ryans_feed_status', array(
+						'viewer_link' = >$oUrl->makeUrl('')."". $_POST['poke_user'],
+						'viewer_full_name' => Phpfox::getLib('parse.output')->clean($_POST['poke_user_full_name']),
+						'content' => $aPoke['poke_text'])
+						);	
+								
+						$sType = 'status';
+						$js_user = Phpfox::getUserId();
+						$js_mood = "";
+						Phpfox::getService('modsfox.status')->add($sType,$ryansFeedStatus,$js_mood,$js_user);
+						
+				}
+							
+			
+				
+				
+				
+				
 			}
 			
 			
