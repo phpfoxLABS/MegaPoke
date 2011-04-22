@@ -1,5 +1,7 @@
 MODULE UPDATE HISTORY:
 
+4/22/11 - ADDED: Ryan's Advanced Feed Support
+
 4/17/11 - BUG: DB table not being created for some users.   FIX: removed out of place "/" at the end of install script.  Was NOT inside DB SQL creation and no harm could of happened to users DB. - Reported by: jackparr52 and finally
 https://github.com/phpfoxLABS/MegaPoke/commit/81598abd2bf4543d9c6b12ff82df7e8fd62b23e8#upload/include/xml/phpfox_megapoke.xml
 

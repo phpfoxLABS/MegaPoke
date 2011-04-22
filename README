@@ -9,10 +9,10 @@ MegaPoke CURRENT Features:
 - User Privacy Settings to turn off MegaPoking on profile. (added 04/15/11)
 - User Notification Settings to stop getting Poke Notification Emails (added 04/15/11)
 - Flood Control to stop over MegaPoking (added 04/15/11)
+- Ryan's Advanced Feed Support (added 04/22/11)
 
 MegaPoke FUTURE Features:
 - Add Images along with Poke Types
-- Ryan's Advanced Feed Support
 - Replace View in Notification with "Poke Back"
 
 No Core Modifications: Just upload, install in Admin CP, add Poke Types, and start poking!
